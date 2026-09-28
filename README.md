@@ -62,6 +62,5 @@ mostrarModal(
 
 ## Video
 
-https://github.com/user-attachments/assets/PEGA_AQUI_EL_ENLACE
+https://github.com/user-attachments/assets/14d23d45-7109-4de3-b342-216349deaeeb
 
-También puedes [ver el video directamente](capturas/VideoModal.mp4).
