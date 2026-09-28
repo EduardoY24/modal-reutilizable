@@ -5,12 +5,15 @@
 Eduardo Yael Mendoza Martinez
 
 ## Descripción
+
 Este proyecto contiene un componente visual de tipo modal creado con HTML, CSS y JavaScript.
 
 El componente permite mostrar diferentes mensajes al usuario mediante una ventana emergente sin tener que crear un modal diferente para cada contenido.
 
 El título y el contenido del modal se pueden cambiar mediante parámetros.
+
 ## Instalación
+
 Para utilizar el componente se deben incluir los archivos CSS y JavaScript en el documento HTML.
 
 **Ejemplo:**
@@ -18,27 +21,47 @@ Para utilizar el componente se deben incluir los archivos CSS y JavaScript en el
 ```html
 <link rel="stylesheet" href="css/componente.css">
 <script src="js/componente.js"></script>
+```
+
 ## Uso
+
 El modal se puede mostrar utilizando la función `mostrarModal()`.
 
 La función recibe dos parámetros: el título y el contenido que se desea mostrar.
 
-**Ejemplo:**
+**Ejemplo desde un botón:**
 
 ```html
-<button onclick="mostrarModal(
-    '¡Bienvenido!',
-    'Este es un mensaje de ejemplo.'
-)">
+<button onclick="mostrarModal('¡Bienvenido!', 'Este es un mensaje de ejemplo.')">
     Abrir modal
 </button>
+```
+
+**Ejemplo desde JavaScript:**
+
+```javascript
 mostrarModal(
     "¡Bienvenido!",
     "Este es un mensaje de ejemplo."
 );
+```
+
 ## Capturas de pantalla
+
+**Página principal**
+
 ![Página principal](capturas/img1.jpeg)
+
+**Modal con el primer contenido**
+
 ![Modal con el primer contenido](capturas/img2.jpeg)
-![Mismo modal pero con otro contenido](capturas/img2.jpeg)
+
+**Mismo modal pero con otro contenido**
+
+![Mismo modal con otro contenido](capturas/img3.jpeg)
+
 ## Video
-[Ver video del modal](capturas/videomodal.mp4)
+
+https://github.com/user-attachments/assets/PEGA_AQUI_EL_ENLACE
+
+También puedes [ver el video directamente](capturas/VideoModal.mp4).
