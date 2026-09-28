@@ -41,3 +41,4 @@ mostrarModal(
 ![Modal con el primer contenido](capturas/img2.jpeg)
 ![Mismo modal pero con otro contenido](capturas/img2.jpeg)
 ## Video
+[Ver video del modal](capturas/videomodal.mp4)
